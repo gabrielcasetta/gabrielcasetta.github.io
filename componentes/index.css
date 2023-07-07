@@ -13,6 +13,20 @@ body {
 
 a {
     text-decoration: none;
+    z-index: 999;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin: 40px auto;
+    pointer-events: all;
+}
+
+a img {
+    width: 100%;
 }
 
 .container {
